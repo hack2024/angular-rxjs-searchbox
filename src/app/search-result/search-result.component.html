@@ -1,0 +1,6 @@
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action"
+        *ngFor="let result of searchResult?.results | slice:0:9">
+        {{result.name}}
+    </a>
+</div>
